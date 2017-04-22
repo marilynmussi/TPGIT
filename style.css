@@ -4,3 +4,22 @@ background-image: url(imagenes/fondo.png), linear-gradient(to right, #ff1151, #a
 
 }
 
+/* NAV */
+
+.navbar {
+
+background-color: black;
+
+}
+
+ul li a {
+
+
+}
+
+
+.seccion2 {
+
+background-color: yellow;
+
+}
