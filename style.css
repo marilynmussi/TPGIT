@@ -1,6 +1,6 @@
 body {
 
-background-image: url(imagenes/fondo.png), linear-gradient(to right, #ff1151, #a809f7)
+background-image: url(imagenes/fondo.png), linear-gradient(to right, #ff1151, #a809f7);
 
 }
 
@@ -28,3 +28,12 @@ background-color: yellow;
 
 	background-color: white;
 }
+
+
+.seccion4 {
+
+	background-image: url(imagenes/usuario.jpg); /* modificar el padding para que se vea la totalidad de la imagen */
+	height: 800px;
+
+}
+
