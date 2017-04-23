@@ -22,7 +22,13 @@ ul li a {
 header p {
 
 	font-family: 'PT Sans', sans-serif;
+	text-align: left;
+	font-size: 42px;
+	color: white;
+	line-height: 1.1em;
 }
+
+
 
 .seccion2 {
 
