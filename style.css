@@ -11,10 +11,14 @@ background-image: url(imagenes/fondo.png), linear-gradient(to right, #ff1151, #a
 background-color: transparent;
 width: 1600px;
 height: 55px;
-
-
 }
 
+.boton0 {
+background-color: transparent;
+width: 1600px;
+height: 55px;
+
+}
 
 ul li {
 
