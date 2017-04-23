@@ -43,6 +43,27 @@ header p {
 	line-height: 1.1em;
 }
 
+/* BOTON */
+
+.boton {
+
+
+	height: 20px;
+	width: 210px;
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	text-align: center;
+	background-color: transparent;
+	border-top: 1px solid white;
+  	border-right: 1px solid white;
+ 	border-bottom: 1px solid white;
+  	border-left: 1px solid white;
+  	border-radius: 60px;
+	padding: 30px 4px;
+
+
+}
+
 
 
 .seccion2 {
