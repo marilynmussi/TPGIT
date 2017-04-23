@@ -8,14 +8,29 @@ background-image: url(imagenes/fondo.png), linear-gradient(to right, #ff1151, #a
 
 .navbar {
 
-background-color: black;
+background-color: transparent;
+width: 1600px;
+height: 55px;
+
+
+}
+
+ul li {
+
+	list-style: none;
+	display: inline-block;
+	width: 50px;
+	padding: 8px 175px 12px 38px;
 
 }
 
 ul li a {
 
-
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
+	color: white;
 }
+
 
 /* HEADER */
 
