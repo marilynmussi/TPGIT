@@ -83,7 +83,8 @@ font-family: 'PT Sans', sans-serif;
 color: white;
 font-size: 30px;
 text-align: center;
-padding: 85px 0px 20px 0px;
+padding: 85px 0px 0px 0px;
+margin: 10px 0px;
 
 }
 
@@ -94,6 +95,8 @@ font-family: 'PT Sans', sans-serif;
 color: white;
 font-size: 25px;
 text-align: center;
+margin: 15px 0px;
+padding: 30px 0px;
 
 }
 
