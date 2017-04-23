@@ -15,12 +15,13 @@ height: 55px;
 
 }
 
+
 ul li {
 
 	list-style: none;
 	display: inline-block;
 	width: 50px;
-	padding: 8px 175px 12px 38px;
+	padding: 8px 25px 12px 38px;
 
 }
 
@@ -67,11 +68,32 @@ header p {
 
 }
 
-
+/* SECCION 2 */
 
 .seccion2 {
 
-background-color: yellow;
+background-color: #ffca2b;
+
+}
+
+ h1 {
+
+
+font-family: 'PT Sans', sans-serif;
+color: white;
+font-size: 30px;
+text-align: center;
+padding: 85px 0px 20px 0px;
+
+}
+
+
+.seccion2 p {
+
+font-family: 'PT Sans', sans-serif;
+color: white;
+font-size: 25px;
+text-align: center;
 
 }
 
@@ -90,7 +112,7 @@ background-color: yellow;
 
 .seccion5 {
 
-	background-color: yellow;
+	background-color: #ffca2b;
 }
 
 .footer {
