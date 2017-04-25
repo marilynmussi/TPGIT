@@ -109,8 +109,7 @@ padding: 0px;
 
 .appstore {
 
-display: flex;
-justify-content: center
+
 width: 200px;
 height: 50px;
 
@@ -120,21 +119,26 @@ height: 50px;
 
 .googleplay {
 
-display: flex;
-justify-content: center
+
 width: 200px;
 height: 50px;
 
 }
 
-
+/* SECCION 3 */
 
 
 .seccion3 {
 
 	background-color: white;
+	height: 850px;
 }
 
+.seccion3 h2 {
+
+	font-size: 45px;
+	font-family: 'Quicksand', sans-serif;
+}
 
 .seccion4 {
 
