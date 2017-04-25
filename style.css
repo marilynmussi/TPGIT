@@ -39,6 +39,14 @@ ul li a {
 
 /* HEADER */
 
+header {
+
+
+height: 800px;
+}
+
+
+
 header p {
 
 	font-family: 'Quicksand', sans-serif;
@@ -47,6 +55,13 @@ header p {
 	color: white;
 	line-height: 1.1em;
 	margin: 45px 75px;
+}
+
+header img {
+
+	position: relative;
+	left: 755px;
+	bottom: -20px;
 }
 
 /* BOTON */
