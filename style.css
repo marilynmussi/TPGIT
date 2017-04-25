@@ -225,10 +225,25 @@ bottom: -250px;
 	bottom: -220px;
 }
 
+
+/* SECCION 5 */
+
 .seccion5 {
 
 	background-color: #ffca2b;
-	height: 100px;
+	height: 325px;
+}
+
+
+.seccion5 p {
+
+	font-family: 'Quicksand', sans-serif;
+	font-size: 35px;
+	color: white;
+	margin: 0px 0px;
+	text-align: center;
+	position: relative;
+	top: 85px;
 }
 
 .footer {
