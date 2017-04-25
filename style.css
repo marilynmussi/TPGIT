@@ -138,7 +138,30 @@ height: 50px;
 
 	font-size: 45px;
 	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+    padding: 85px 0px 0px 0px;
+    margin: 10px 0px;
 }
+
+.seccion3 p {
+
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	text-align: center;
+    margin: 10px 0px;
+
+
+}
+
+.telefono2 {
+
+	position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+
+/* SECCION 4 */
 
 .seccion4 {
 
