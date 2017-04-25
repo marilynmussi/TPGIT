@@ -246,6 +246,13 @@ bottom: -250px;
 	top: 85px;
 }
 
+.ion-ios-heart {
+
+	
+	font-size: 40px;
+	color: red;
+}
+
 .footer {
 
 	background-color: grey;
