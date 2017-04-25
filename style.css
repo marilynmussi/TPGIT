@@ -104,6 +104,32 @@ padding: 0px;
 
 }
 
+/* SECCION 2 ICONOS/IMAGENES */
+
+
+.appstore {
+
+display: flex;
+justify-content: center
+width: 200px;
+height: 50px;
+
+}
+
+
+
+.googleplay {
+
+display: flex;
+justify-content: center
+width: 200px;
+height: 50px;
+
+}
+
+
+
+
 .seccion3 {
 
 	background-color: white;
