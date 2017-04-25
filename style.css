@@ -146,12 +146,12 @@ height: 50px;
 .seccion3 {
 
 	background-color: white;
-	height: 850px;
+	height: 920px;
 }
 
 .seccion3 h2 {
 
-	font-size: 45px;
+	font-size: 35px;
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
     padding: 85px 0px 0px 0px;
@@ -171,8 +171,8 @@ height: 50px;
 .telefono2 {
 
 	position: relative;
-    left: 50px;
-    top: 100px;
+    left: 40px;
+    top: 60px;
 }
 
 
