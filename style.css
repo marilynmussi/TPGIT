@@ -186,7 +186,8 @@ position: relative;
 .seccion4 {
 
 	background-image: url(imagenes/usuario.jpg); /* modificar el padding para que se vea la totalidad de la imagen */
-	height: 800px;
+	background-size: 1103px;
+	height: 735px;
 
 }
 
