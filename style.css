@@ -246,11 +246,43 @@ bottom: -250px;
 	top: 85px;
 }
 
-.ion-ios-heart {
+
+/* ICONOS */
+
+.ion-android-favorite {
 
 	
 	font-size: 40px;
 	color: red;
+}
+
+
+.fa-twitter-square {
+
+font-size: 60px;
+color: #02ade2;
+position: relative;
+top: 90px;
+left: 450px;
+}
+
+.fa-facebook-square {
+
+font-size: 60px;
+color: #0236e2;
+position: relative;
+top: 90px;
+left: 460px;
+}
+
+.fa-google-plus-official {
+
+font-size: 60px;
+color: red;
+position: relative;
+top: 90px;
+left: 470px;
+
 }
 
 .footer {
