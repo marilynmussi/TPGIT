@@ -61,7 +61,7 @@ header p {
 
 	font-family: 'Quicksand', sans-serif;
 	text-align: left;
-	font-size: 45px;
+	font-size: 35px;
 	color: white;
 	line-height: 1.1em;
 	margin: 45px 75px;
@@ -72,6 +72,8 @@ header img {
 	position: relative;
 	left: 755px;
 	bottom: 310px;
+	width: 200px;
+	height: 400px;
 }
 
 /* BOTON */
@@ -197,7 +199,7 @@ position: relative;
 
 	background-image: url(imagenes/usuario.jpg); /* modificar el padding para que se vea la totalidad de la imagen */
 	background-repeat: no-repeat;
-	background-size: 825px 735px;
+	background-size: 831px 735px;
 	height: 735px;
 	width: 1400px;
 
@@ -243,6 +245,7 @@ bottom: -250px;
 
 	background-color: #ffca2b;
 	height: 325px;
+	width: 1000px;
 }
 
 
