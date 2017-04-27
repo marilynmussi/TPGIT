@@ -9,8 +9,8 @@ body {
 .seccion1 {
 
 background-image: url(imagenes/fondo.png), linear-gradient(to right, #cc1224, #56296d);
-height: 573px;
-width: 1000px
+height: 538px;
+width: 975px;
 
 }
 
@@ -61,7 +61,7 @@ header p {
 
 	font-family: 'Quicksand', sans-serif;
 	text-align: left;
-	font-size: 35px;
+	font-size: 30px;
 	color: white;
 	line-height: 1.1em;
 	margin: 45px 75px;
@@ -70,10 +70,10 @@ header p {
 header img {
 
 	position: relative;
-	left: 755px;
-	bottom: 310px;
-	width: 200px;
-	height: 400px;
+	left: 547px;
+	bottom: 332px;
+	width: 355px;
+	height: 470px;
 }
 
 /* BOTON */
