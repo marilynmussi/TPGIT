@@ -1,7 +1,16 @@
+body {
+
+	width: 75%;
+}
+
+
+
+
 .seccion1 {
 
 background-image: url(imagenes/fondo.png), linear-gradient(to right, #ff1151, #a809f7);
 height: 573px;
+width: 1000px
 
 }
 
@@ -187,8 +196,10 @@ position: relative;
 .seccion4 {
 
 	background-image: url(imagenes/usuario.jpg); /* modificar el padding para que se vea la totalidad de la imagen */
-	background-size: 1103px;
+	background-repeat: no-repeat;
+	background-size: 825px 735px;
 	height: 735px;
+	width: 1400px;
 
 }
 
