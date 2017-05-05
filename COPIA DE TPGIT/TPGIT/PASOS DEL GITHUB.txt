@@ -1,0 +1,12 @@
+git status (para ver los cambios)
+
+git add . (para que tome los cambios locales)
+
+git commit -m "blablabla" (SI O SI con comentario)
+
+git push (para subir el contenido local a la web)
+
+git pull (para bajar el contenido web al local)
+
+para entrar al github:
+ cd (y la ruta de la carpeta copiada y pegada)

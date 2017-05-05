@@ -1,0 +1,472 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ 
+.contenedor {
+	background:#ccc;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+ 
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+
+
+.seccion1 {
+
+background-image: url(imagenes/fondo.png), linear-gradient(to right, #cc1224, #56296d);
+height: 100%;
+width: 100%;
+display: flex;
+flex-flow: row wrap;
+
+
+}
+
+nav {
+display: flex;
+flex-flow:row wrap;
+justify-content: flex-end;
+background-color: transparent;
+width: 25%; 
+margin-top: 15px;
+}
+
+@media screen and (max-width: 800px)
+nav {
+    width: 100%;
+}
+
+
+
+nav a {
+text-decoration: none;
+text-align: center; 
+padding: 10px;
+font-family: 'Quicksand', sans-serif;
+font-size: 10px;
+color: white;
+
+}
+
+.boton0 {
+display: flex;
+background-color: transparent;
+width: 60%;
+height: 55px;
+font-family: 'Quicksand', sans-serif;
+font-size: 10px;
+color: white;
+margin: auto;
+padding: 10px;
+
+
+}
+
+/* HEADER */
+
+header {
+width: 100%;
+display: flex;
+flex-flow:row wrap;
+align-self: flex-start;
+/*height: 402px;*/
+}
+
+
+
+/*header p {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	font-size: 30px;
+	color: white;
+	line-height: 1.1em;
+	margin: 45px 75px;
+}*/
+
+.speech {
+display: flex;
+order:-1;
+text-align: left;
+font-family: "Quicksand", sans-serif;
+font-size: 25px;
+color: white;
+line-height: 1.1em;
+margin-left: 65px;
+margin-top: 30px;
+
+}
+
+.telefono1 img {
+display: flex; 
+order: 2;
+width: 100%;
+margin-right: 3px;
+
+}
+
+/*header img {
+
+	position: relative;
+	left: 547px;
+	bottom: 332px;
+	width: 355px;
+	height: 470px;
+} */
+
+/* BOTON */
+
+.boton {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	order:3;
+	height: 20px;
+	width: 225px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	background-color: transparent;
+	/* 	border-top: 1px solid white;
+  	border-right: 1px solid white;
+ 	border-bottom: 1px solid white;
+  	border-left: 1px solid white; */
+  	border: 1px solid white;
+  	border-radius: 60px;
+	margin-left: 65px;
+	margin-right: 100px;
+	margin-top: 20px;
+	margin-bottom: 150px;
+	padding: 15px 4px;
+
+
+}
+
+/* SECCION 2 */
+
+.seccion2 {
+
+background-color: #ffca2b;
+height: 100%;
+width: 100%;
+display: flex;
+flex-flow: row wrap;
+
+}
+
+ h1 {
+
+display: flex;
+justify-content: center;
+order:-1;
+font-family: 'Quicksand', sans-serif;
+color: white;
+font-size: 60px;
+text-align: center;
+padding-left: 15%;
+padding-right: 15%;
+padding-top: 10%;
+padding-bottom: 1%;
+margin: 0px 0px;
+
+}
+
+
+.seccion2 p {
+width: 100%;
+display: flex;
+order:0;
+justify-content: center;
+font-family: 'Quicksand', sans-serif;
+color: white;
+font-size: 15px;
+text-align: center;
+margin: auto;
+padding-top: 5%;
+padding-bottom: 5%;
+
+}
+
+/* SECCION 2 ICONOS/IMAGENES */
+
+/*.logos {
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+order: 3;
+padding-top: 5px;
+padding-left: 30px;
+
+}  */
+
+
+.logos {
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+padding-top: 5px;
+padding-left: 30px;
+}
+
+.googleplay {
+
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+order: 2;
+width: 40%;
+padding-top: 5%;
+padding-bottom: 5%;
+position: relative;
+margin-left: auto;
+
+/*width: 200px;
+height: 50px;
+position: relative;
+    left: 363px; */
+
+}
+
+.appstore {
+
+display: flex;
+flex-wrap: wrap;
+order: 3;
+width: 40%; 
+padding-top: 5%;
+padding-bottom: 5%;
+position: relative;
+margin: auto;
+
+/*width: 200px;
+height: 50px;
+position: relative;
+left: 333px; */
+
+}
+/* SECCION 3 */
+
+
+.seccion3 {
+
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+h2 {
+	display: flex;
+	order: 1;
+	font-size: 35px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+    padding: 85px 0px 0px 0px;
+    margin-left: 15%;
+}
+
+.h2 p {
+	display: flex;
+	order: 2;
+	justify-content: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	text-align: center;
+    margin: auto;
+}
+
+.telefono2 {
+	display: flex;
+	order: 3;
+	width: 50%;
+	justify-content: flex-start;
+	margin-top: 25px;
+	/*position: relative;
+    left: 40px;
+    top: 60px; */
+}
+
+.icon-camera
+{
+display: flex;
+width: 1em;
+height: 1em;
+stroke-width: 0;
+stroke: currentColor;
+fill: currentColor;
+
+}
+
+/* SECCION 4 */
+
+.seccion4 {
+	height: 600px;
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	background-image: url(imagenes/usuario.jpg); /* modificar el padding para que se vea la totalidad de la imagen */
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	
+}
+
+h3 {
+display: flex;
+flex-flow: column wrap;
+justify-content: flex-start;
+order: 1;
+font-family: 'Quicksand', sans-serif;
+font-size: 50px;
+color: white;
+position: relative;
+padding-left: 5%;
+padding-right: 15%;
+padding-top: 10%;
+padding-bottom: 1%;
+margin: 0px 0px;
+
+
+}
+
+
+.boton2 {
+	display: flex;
+	order: 2;
+	background-color: transparent;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 225px;
+	height: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10px;
+	color: white;
+	border: 1px solid white;
+  	border-radius: 60px;
+	margin-left: 65px;
+	margin-right: 100px;
+	margin-top: 20px;
+	margin-bottom: 150px;
+	padding: 15px 4px;
+	}
+
+
+/* SECCION 5 */
+
+
+.seccion5 {
+	background-color: #ffca2b;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.seccion5 p {
+	/*display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	order: -1;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 10%;
+	padding-bottom: 1%;
+	margin: 0px 0px;*/
+	font-family: 'Quicksand', sans-serif;
+	font-size: 35px;
+	color: white;
+	margin: 0px 0px;
+	text-align: center;
+	position: relative;
+	top: 85px;
+}
+
+/* ICONOS */
+
+.ion-android-favorite {
+
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	color: red;
+}
+;
+
+
+
+.footer {
+
+	background-color: grey;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
+.social li {
+display: inline-block;
+	
+}
+
+.social li span {
+display: inline-block;
+width: 30px;
+height: 30px;
+color: white;
+font-size: 20px;
+text-align: center;
+line-height: 30px;
+border-radius: 50%;
+
+} 
+
+.ion-social-googleplus {
+font-size: 60px;
+background: #dd4b39;
+position: relative;
+top: 90px;
+left: 470px;
+
+/*background: #dd4b39;
+font-size: auto;
+position: center; */
+/*
+font-size: 100px;
+position: relative;
+top: 90px;
+left: 470px; */
+
+}
+
+.ion-social-facebook {
+background: #3b5999;
+font-size: 100px;
+position: relative;
+top: 90px;
+left: 460px;
+}
+
+.ion-social-twitter
+{
+background: #55acee;
+font-size: 100px;
+position: relative;
+top: 90px;
+left: 450px;
+
+}
