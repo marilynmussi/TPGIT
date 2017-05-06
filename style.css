@@ -304,6 +304,37 @@ left: 470px;
 
 .footer {
 
-	background-color: grey;
-	height: 250px;
+	background-color: black;
+
+	
+
+}
+
+.footer p {
+
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10px;
+	font-color: grey;
+	margin: 0px;
+	text-align: center;
+	position: relative;
+	top: 12px;
+	left: 16px;
+}
+
+.footer ul {
+
+	font-family: 'Quicksand', sans-serif;
+	margin: 8px 0px;
+	text-align: center;
+	position: relative;
+
+	
+
+}
+
+.footer ul li {
+	
+	font-size: 10px;
+	padding: 5px 2px;
 }
