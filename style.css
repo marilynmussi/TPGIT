@@ -281,9 +281,9 @@ bottom: -140px;
 	top: 85px;
 }
 
-.social li {
-display: inline-block;
-	
+.social {
+	display: flex;
+
 }
 
 .social li span {
