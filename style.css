@@ -16,11 +16,23 @@ height: 538px;
 
 /* NAV */
 
-.navbar {
-
+nav {
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-end;
 background-color: transparent;
-width: 1600px;
-height: 55px;
+width: 25%;
+margin-top: 15px;
+}
+
+nav a {
+text-decoration: none;
+text-align: center; 
+padding: 10px;
+font-family: 'Quicksand', sans-serif;
+font-size: 10px;
+color: white;
+
 }
 
 .boton0 {
